@@ -1,0 +1,27 @@
+{
+  "name": "complexicon",
+  "workspaces": [
+    "apps/*"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm:start:frontend\" \"npm:start:backend\"",
+    "migrate:backend": "npx --workspace=@complexicon/backend prisma migrate dev",
+    "start:frontend": "npm run dev --workspace=@complexicon/frontend",
+    "start:backend": "npm start --workspace=@complexicon/backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^7.4.2",
+    "dotenv": "^16.4.7"
+  }
+}
