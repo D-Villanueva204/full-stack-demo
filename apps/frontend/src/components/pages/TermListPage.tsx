@@ -1,7 +1,7 @@
-import { useTerms } from "../../hooks/useTerms";
+import { useTerms } from "./hooks/useTerms";
 import { FrontendTerm as Term } from "@shared/types/frontend-term";
 import { createPortal } from "react-dom";
-import { usePopup } from "../../hooks/usePopup";
+import { usePopup } from "./hooks/usePopup";
 import PopupMessage from "../common/popup-message/PopupMessage";
 import { TermListDisplay } from "../common/term-list-display/TermListDisplay";
 

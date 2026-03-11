@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { FrontendTerm as Term } from "@shared/types/frontend-term";
-import * as TermService from "../services/termService";
+import * as TermService from "../../../services/termService";
 
 // filter function can be passed in as callback to filter down resulting terms
 // dependencies may be passed in to force re-query

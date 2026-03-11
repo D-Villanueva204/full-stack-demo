@@ -1,6 +1,6 @@
 import { NavLink, useLocation, useNavigate } from "react-router";
 import { useEffect, useState } from "react";
-import { useSearch } from "../../../hooks/useSearch";
+import { useSearch } from "../../pages/hooks/useSearch";
 import { SearchBar } from "../../common/search-bar/SearchBar";
 
 export function Nav() {

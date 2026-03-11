@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useSearch } from "../../hooks/useSearch";
+import { useSearch } from "./hooks/useSearch";
 import { FrontendTerm as Term } from "@shared/types/frontend-term";
 import { TermListPage } from "./TermListPage";
 import { SearchBar } from "../common/search-bar/SearchBar";
